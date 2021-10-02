@@ -1,0 +1,41 @@
+ .impo {
+    height: 75vh;
+}
+.circle
+{
+height: 10px !important;
+width: 10px !important;
+border-radius: 50% !important;
+}
+ .overlay 
+{
+    top:0;
+    left:0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .5);
+}
+/* header {
+   height: 100vh;
+} */
+.welcome 
+ {
+    position: absolute;
+    opacity: 0;
+    top: 100%;
+    left: -50;
+    z-index: 2;
+ }
+.welcome2
+ {
+position: absolute;
+top:100%;
+right:-50;
+z-index: 2;
+ }
+.welcome3
+ {
+    position: absolute;
+    top:100%;
+    bottom: 100% ;
+    z-index: 2;
+ }
